@@ -8,5 +8,6 @@ function resetar(){
 }
 
 function calcular(){
-  document.calc.visor.value = 'Eu amo a Carol <3'
+  //document.calc.visor.value = 'Eu amo a Carol <3'
+  document.calc.visor.value = eval(document.calc.visor.value)
 }
